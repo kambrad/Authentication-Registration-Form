@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cinzel', sans-serif;
+}
+
+body
+{
+    background-image: url('./lib/img/bg.png');
+}
+
+#bg-wrapper
+{
+    background-image: linear-gradient(to top left, red 30%, blue);
+    position: absolute;
+    width: 100%;
+    height: 105%;
+    opacity: 0.9;
+}
+
+nav
+{
+    margin: 25px auto;
+    width: 1250px;
+    display: flex;
+    justify-content: end;
+}
+
+nav .auth-options
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    align-items: center;
+}
+
+nav .auth-options p
+{
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+nav .auth-options input[type='button']
+{
+    padding: 10px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 15px;
+}
+
+.form-container
+{
+    color: white;
+    margin: 50px auto;
+    width: 500px;
+    text-align: center;
+}
+
+.form-container .logo
+{
+    font-size: 60px;
+}
+
+.form-container .sub-title
+{
+    line-height: 35px;
+    font-size: 20px;
+}
+.form-holder
+{
+    display: flex;
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 1000px;
+    height: 63vh;
+    position: relative;
+    right: 250px;
+    border-radius: 5px;
+}
+.form-build
+{
+    background-color: black;
+    
+}
+.form-build-list
+{
+    margin: 15px;
+}
+.form-build-list ul
+{
+    display: block;
+    align-items: start;
+    padding: 0px 80px;
+}
+.form-build-list ul li
+{
+    margin: 30px 0px;
+    width: 200px;
+}
+.form-build-wrapper
+{
+    background: black;
+    margin: 0;
+    width: 380px;
+    height: 50vh;
+    display: block;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.form-information
+{
+    border: 1px solid blue;
+    position: relative;
+    width: 1000px;
+}
+.form-information-wrapper
+{
+    color: white;
+}
+
+input[type='text'], input[type='email'], input[type='password']
+{
+    padding: 8px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    margin: 10px 50px;
+    width: 400px;
+    color: white;
+
+}
+input[type='text']:focus, input[type='email']:focus, input[type='password']:focus
+{
+    outline: 0;
+    border-bottom: 2px solid yellow;
+    transition: all 50ms ease;
+}
+input[type='checkbox']
+{
+    width: 70px;
+    margin: 0px 30px 0px 10px;
+}
+input[type='submit']
+{
+    padding: 10px;
+    color: black;
+    width: 300px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p
+{
+    font-size: 13px;
+}
+a
+{
+    color: black;
+}
+
+form div
+{
+    margin: 20px 0px;
+}
+
+form div:nth-child(5)
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin: auto;
+    width: 430px;
+}
+form div:nth-child(5) p
+{
+    line-height: 20px;
+    text-align: start;
+}
+
+
+.placeholderStyles
+{
+    color: red;
+}
